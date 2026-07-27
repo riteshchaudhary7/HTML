@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Portal</title>
+</head>
+<body>
+    <!-- Here we use header at first. -->
+    <header>
+        <div style="text-align: center;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu9rbtA0a_5pd4Bo-xT78Ecb2LrSBK9JQ61LXGY8Zyog&s=10" alt="College">
+        </div>
+        <h2 style="text-align: center;">Bhaktapur Multiple Campus</h2>
+        <p style="text-align: center;">Hello Everyone👋 Welcome to BMC</p>
+        <nav style="text-align: center;">
+            <a href="https://bkmc.tu.edu.np/" target="_blank">Home</a>
+            <a href="https://bkmc.tu.edu.np/pages/clz-introduction-1511" target="_blank">About</a>
+            <a href="https://bkmc.tu.edu.np/courses/497admission" target="_blank">Admission</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+        <hr>
+        <hr>
+        <!-- Here we use main. -->
+        <h2 style="text-align: center;">About Admission</h2>
+
+        <main>
+            <p>Welcome to the Student Admission Portal. 
+            Our admission process is simple, transparent, and student-friendly. 
+            We welcome dedicated and motivated students who are eager to achieve academic excellence and build a successful future. 
+            Applicants can complete the admission form online and submit the required documents for verification.
+            We offer a supportive learning environment with experienced faculty, modern facilities, and opportunities for both academic and personal growth. 
+            Join our institution and take the first step toward a bright and successful career.
+            </p>
+            
+        </main>
+        
+        <h2 style="text-align: center;"><b>Admission Form</b></h2>
+
+        <form>
+            
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Your Name:</label>
+                <input type="text" name="name" id="name" placeholder="First name" required>
+
+                <label for="middle name">Middle name</label>
+                <input type="text" name="name" id="middle name" placeholder="Student-Middle name" required>
+
+                <label for="Last name">Last name</label>
+                <input type="text" name="name" id="Last name" placeholder="last name" required>
+
+                <br><br>
+                <label for="FN">Father's Name</label>
+                <input type="text" name="name" id="FN" placeholder="First name" required>
+
+                <label for="middle-name">Middle name</label>
+                <input type="text" name="name" id="middle-name" placeholder="Father-Middle name" required>
+
+                <label for="Last-name">Last name</label>
+                <input type="text" name="name" id="Last-name" placeholder="last name" required>
+
+                <br><br>
+                <label for="MN">Mother's Name</label>
+                <input type="text" name="name" id="MN" placeholder="First name" required>
+
+                <label for="middlename">Middle name:</label>
+                <input type="text" name="name" id="middlename" placeholder="Mother-Middle name" required>
+
+                <label for="Lastname">Last name:</label>
+                <input type="text" name="name" id="Lastname" placeholder="last name" required>
+                
+                <br><br>
+                <label><input type="radio" name="Gender" value="Male">Male</label>
+                <label><input type="radio" name="Gender" value="Female">Female</label>
+                <label><input type="radio" name="Gender" value="Other">Other</label>
+
+                <br><br>
+                <label for="Date">Date of Birth:</label>
+                <input type="Date" name="Date" id="Date" required>
+
+                <br>
+                <p>Blood Group:<br>
+                <label><input type="checkbox" name="Blood Group" value="A">A</label><br>
+                <label><input type="checkbox" name="Blood Group" value="B">B</label><br>
+                <label><input type="checkbox" name="Blood Group" value="AB">AB</label><br>
+                <label><input type="checkbox" name="Blood Group" value="O">O</label></p>
+                Nationality :
+                <label><input type="radio" name="natinality" value="Nepali" required>Nepali</label>
+                <label><input type="radio" name="natinality" value="Indian" required>Indian</label>
+                <label><input type="radio" name="natinality" value="Bhutanese" required>Bhutanese</label>
+                <label><input type="radio" name="natinality" value="Other" required>Other</label>
+                </p>
+
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Contact Details</legend>
+
+                <label for="email">Email :</label>
+                <input type="Email" name="email" id="email" placeholder="example@gmail.com" required>
+
+                <br><br>
+                <label for="PW">Phone Number :</label>
+                <input type="tel" name="PW" id="PW" placeholder="+977-98***" required>
+
+                <br><br>
+                <label for="Emergency Contact">Emergency Contact :</label>
+                <input type="tel" name="Emergency Contact" id="Emergency Contact" placeholder="For emergency only!!">
+
+                <br><br>
+                <label for="website">Website :</label>
+                <input type="URL" name="Website" id="Website" placeholder="https://example.com">
+                
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Educational Details</legend>
+
+                <label for="SEE School">SEE School</label>
+                <input type="text" name="SEE School" id="SEE School" required>
+
+                <br><br>
+                <label for="GPA">SEE GPA</label>
+                <input type="number" name="GPA" id="GPA" required>
+
+                <br><br>
+                <label for="+2">+2 College</label>
+                <input type="text" name="+2" id="+2" required>
+
+                <br><br>
+                <label for="+2 GPA">+2 GPA</label>
+                <input type="number" name="+2 GPA" id="+2 GPA" required>
+
+                <br><br>
+                <label for="Faculty"> Faculty:</label>
+                <input type="text" name="Faculty" id="Faculty" placeholder="science/management..." required>
+
+                <br><br>
+                <label for="date">Year Passed</label>
+                <input type="date" name="date" id="date" required>
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Address</legend>
+                
+                <label for="Country">Country :</label>
+                <select id="Country" name="Country">
+
+                    <option value="USA">USA</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="UK">UK</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+
+                </select>
+
+                
+                <label for="Province">Province :</label>
+                <select id="Province" name="Province">
+
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+
+                </select>
+
+                 <label for="District">District :</label>
+                <select id="District" name="District">
+
+                    <option value="Sarlahi">Sarlahi</option>
+                    <option value="Mahottari">Mahottari</option>
+                    <option value="Dhanusha">Dhanusha</option>
+                    <option value="Siraha">Siraha</option>
+                    <option value="Saptari">Saptari</option>
+                    <option value="Bara">Bara</option>
+                    <option value="Parsa">Parsa</option>
+
+                </select>
+
+                 <label for="Municipality">Municipality :</label>
+                <select id="Municipality" name="Municipality">
+
+                    <option value="Haripur Municipality">Haripur Municipality</option>
+                    <option value="Haripurwa Municipality">Haripurwa Municipality</option>
+                    <option value="Hariwan Municipality">Hariwan Municipality</option>
+                    <option value="Barahathawa Municipality">Barahathawa Municipality</option>
+                    <option value="Malangwa Municipality">Malangwa Municipality</option>
+                    <option value="Balara Municipality">Balara Municipality</option>
+                    <option value="Godaita Municipality">Godaita Municipality</option>
+
+                </select>
+
+                <label for="Ward Number">Ward Number :</label>
+                <select id="Ward Number" name="Ward Number">
+
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+
+                </select>
+
+                <br><br>
+                <label for="Full Address">Full Address :</label>
+                <input type="text" name="Full Address" id="Full Address" placeholder="Write full address..">
+
+            </fieldset>
+
+            <br>
+            <fieldset>
+
+                <legend>Skills :</legend>
+                <label><input type="checkbox" name="skills" value="Frontend">Frontend</label><br>
+                <label><input type="checkbox" name="skills" value="Backend">Backend</label><br>
+                <label><input type="checkbox" name="skills" value="UX/UI">UX/UI</label><br>
+                <label><input type="checkbox" name="skills" value="Fullstack">Fullstack</label><br>
+                <label><input type="checkbox" name="skills" value="Cybersecurity">Cybersecurity</label><br>
+                <label><input type="checkbox" name="skills" value="Others">Others</label>
+
+            </fieldset>
+
+            <br>
+            <fieldset>
+
+                <legend>Documents</legend>
+                <label for="PP">Upload Your Passport Photo :</label>
+                <input type="File" name="PP" id="PP" required>
+
+                <br><br>
+                <label for="Citizenship">Upload Your Citizenship :</label>
+                <input type="File" name="Citizenship" id="Citizenship" required>
+
+                <br><br>
+                <label for="SEE Marksheet">Upload Your SEE Marksheet :</label>
+                <input type="File" name="SEE Marksheet" id="SEE Marksheet" required>
+
+                <br><br>
+                <label for="+2 Marksheet">Upload your +2 Marksheet :</label>
+                <input type="File" name="+2 Marksheet" id="+2 Marksheet" required>
+
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Additional Information</legend>
+
+                <label for="color">Pick Your Favorite Color:</label>
+                <input type="Color" name="color" id="color" value="#ff1234">
+
+                <br><br>
+                <label for="Time">Admission Time :</label>
+                <input type="Time" name="Time" id="Time" Min="09:00" Max="05:00">
+
+                <br><br>
+                <label for="Bio">Short Bio :</label>
+                <textarea name="Bio" id="Bio" row="4" cols="4"></textarea>
+
+            </fieldset>
+
+            
+            <br>
+            <fieldset>
+            <label><input type="checkbox" name="Terms" id="Terms" required>I agree to the terms and conditions. </label>
+
+            <br><br>
+            <button type="Submit">Submit</button>
+
+            <button type="Reset">Reset</button>
+            </fieldset>
+
+            <hr>
+            <article>
+
+                <h2>Why Join Our College?</h2>
+                <p>Our college is committed to providing quality education and helping students achieve their academic and career goals. 
+                We offer a friendly learning environment with modern facilities and experienced teachers. 
+                Here are some reasons to join our college:
+                </p>
+
+                <ul>
+                    <li>Experienced and qualified faculty members.</li>
+                    <li>Smart classrooms with modern teaching methods.</li>
+                    <li>Well-equipped computer laboratories.</li>
+                    <li>Library with a wide collection of books and digital resources.</li>
+                    <li>Scholarship opportunities for deserving students.</li>
+                    <li>Sports and extracurricular activities for overall development.</li>
+                    <li>Internship and career guidance programs</li>
+                </ul>
+
+            </article>
+
+            <hr>
+            <aside>
+                <h2>Admission Notice</h2>
+                <p><b>Admission Opens:</b> August 1, 2026</p>
+                <p><b>Last Date to Apply:</b> September 15, 2026</p>
+                <p><b>Office Hours:</b> Sunday - Friday, 10:00 AM  4:00 PM</p>
+                <p><b>Helpline Number:</b> +977-1-6611234</p>
+                <p><b>Location:</b> Bhaktapur, Nepal</p>
+                <img src="#" alt="College Address">
+
+            </aside>
+
+            <hr>
+            <footer>
+
+                © 2026 Student Admission Portal. All Rights Reserved.
+
+                <nav>
+                    <a href="https://www.facebook.com/groups/1287069171830908/" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/explore/locations/622445259/bhaktapur-multiple-campus/" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">Email</a>
+                    <a href="#" target="_blank">Twitter</a>
+                </nav>
+               
+            </footer>
+
+            
+        </form>
+
+</body>
+</html>

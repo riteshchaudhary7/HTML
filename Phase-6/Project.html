@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- To Make a Form -->
+     <h2>STUDENT REGISTERATION FORM</h2>
+     <hr>
+    <form>
+        
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name" placeholder="First name" required>
+
+        <label for="middle name">Middle name</label>
+        <input type="text" name="name" id="middle name" placeholder="Middle name" required>
+
+        <label for="Last name">Last name</label>
+        <input type="text" name="name" id="Last name" placeholder="last name" required>
+        
+        <br><br>
+        <label for="FN">Father's Name</label>
+        <input type="text" name="name" id="FN" placeholder="First name" required>
+
+        <label for="middle name">Middle name</label>
+        <input type="text" name="name" id="middle name" placeholder="Middle name" required>
+
+        <label for="Last name">Last name</label>
+        <input type="text" name="name" id="Last name" placeholder="last name" required>
+
+        <br><br>
+        <label for="MN">Mother's Name</label>
+        <input type="text" name="name" id="MN" placeholder="First name" required>
+
+        <label for="middle name">Middle name</label>
+        <input type="text" name="name" id="middle name" placeholder="Middle name" required>
+
+        <label for="Last name">Last name</label>
+        <input type="text" name="name" id="Last name" placeholder="last name" required>
+
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="example@gmial.com" required>
+
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+
+        <br><br>
+        <label for="PN">Number</label>
+        <input type="number" name="PN" id="PN" placeholder="1234...." required>
+
+        <br><br>
+        <label for="Age">Age</label>
+        <input type="Age" name="Age" id="Age" placeholder="Your age" required>
+
+        <br><br>
+        <label for="Date">Date of Birth</label>
+        <input type="Date" name="Date" id="Date" required>
+
+        <br><br>
+        <label><input type="radio" name="Gender" value="Male">Male</label>
+        <label><input type="radio" name="Gender" value="Female">Female</label>
+        <label><input type="radio" name="Gender" valeu="Other">Other</label>
+
+        <br><br>
+        <label for="address">Address</label>
+        <input type="address" name="address" id="address" required>
+
+        <br><br>
+        <!-- For the country names -->
+        <hr>
+        <hr>
+        <label for="country">Country :</label>
+        <select id="country" name="country">
+            <option value="Nepal">Nepal</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+        </select>
+        
+        <br>
+        <p>Skills:</p>
+        <label><input type="checkbox" name="skills" value="Frondend">Frondend</label>
+        <br>
+        <label><input type="checkbox" name="skills" values="Backend">Backend</label>
+        <br>
+        <label><input type="checkbox" name="skills" value="Fullstack">Fullstack</label>
+        <br>
+        <label><input type="checkbox" name="skills" value="Cyber Security">Cyber Security</label>
+        <br>
+        <label><input type="checkbox" name="skills" value="UX/UI">UX/UI</label>
+        <br>
+        <label><input type="checkbox" name="skills" value="Others">Others</label>
+
+        <br><br>
+        <label for="color">Pick Your Favorite Color:</label>
+        <input type="color" name="color" id="color" value="#ff1234">
+
+        <!--  For the Registration time-->
+        <br><br>
+        <label for="Time">Registration Time:</label>
+        <input type="Time" name="Time" id="Time" min="09:00" max="4:00">
+        
+        <!-- For the website upload  -->
+        <br><br>
+        <label for="website">website:</label>
+        <input type="url" id="website" name="website" placeholder="https://example.com">
+
+        <br><br>
+        <label for="resume">Upload Your Resume:</label>
+        <input type="file" name="resume" id="resume" required>
+
+        <br><br>
+        <label for="image">Upload Your Image:</label>
+        <input type="file" name="image" id="image" required>
+
+        <!-- For the Short Bio  -->
+        <hr>
+        <label for="bio">Short Bio:</label>
+        <input type="text" name="bio" id="bio" rows="4" column="4" placeholder="Tell us something about yourself">
+
+        <!-- For the terms and conditions -->
+        <hr>
+        <label><input type="checkbox" name="terms" id="terms" required>I agree to the terms and conditions.</label>
+
+        <br><br>
+        <button type="Submit">Submit</button>
+
+        <button type="Reset">Reset</button>
+
+    </form>
+</body>
+</html>
