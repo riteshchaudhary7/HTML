@@ -1,0 +1,6 @@
+1-id
+
+id = "Something(Gives unique id)"
+class = "some-name(groups element)"
+style = "property:value(adds inline css)"
+tittle = "text(shows a tooltip on hover)"
