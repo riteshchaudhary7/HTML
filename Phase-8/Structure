@@ -1,0 +1,71 @@
+<body>
+
+    <header>
+        ...
+    </header>
+
+    <main>
+
+        <section id="Home">
+            ...
+        </section>
+
+        <section id="Movies">
+            ...
+        </section>
+
+        <section id="Music">
+            ...
+        </section>
+
+        <section id="Gallery">
+            ...
+        </section>
+
+        <section id="Table">
+            ...
+        </section>
+
+        <section id="Categories">
+            ...
+        </section>
+
+        <section id="categories">
+            ...
+        </section>
+
+        <section>
+            ...
+        </section> <!-- Description List -->
+
+        <aside id="Quick Tips">
+            ...
+        </aside>
+
+        <section>
+            ...
+        </section> <!-- Featured Trailer -->
+
+        <section>
+            ...
+        </section> <!-- Favourite Movies -->
+
+        <section>
+            ...
+        </section> <!-- Favourite Music -->
+
+        <section id="Contact">
+            ...
+        </section>
+
+        <section id="About">
+            ...
+        </section>
+
+    </main>
+
+    <footer>
+        ...
+    </footer>
+
+</body>
